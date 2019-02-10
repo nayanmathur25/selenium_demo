@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="0" passed="0" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-02-10T13:56:08Z" name="LjavaLang" finished-at="2019-02-10T13:56:08Z" duration-ms="12">
+    <groups>
+    </groups>
+    <test started-at="2019-02-10T13:56:08Z" name="test" finished-at="2019-02-10T13:56:08Z" duration-ms="12">
+    </test> <!-- test -->
+  </suite> <!-- LjavaLang -->
+</testng-results>
