@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [LjavaLang]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="ExtendReports.EReports"/>
+  </listeners>
   <test thread-count="5" name="test(failed)">
     <classes>
-      <class name="TestBase.SeleniumWebdriver">
+      <class name="TestBase.loginCRM">
         <methods>
-          <include name="userison_homepage"/>
+          <include name="quitBrowser"/>
+          <include name="checkValue"/>
         </methods>
-      </class> <!-- TestBase.SeleniumWebdriver -->
+      </class> <!-- TestBase.loginCRM -->
     </classes>
   </test> <!-- test(failed) -->
 </suite> <!-- Failed suite [LjavaLang] -->

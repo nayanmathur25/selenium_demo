@@ -1,8 +1,15 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="LjavaLang">
-<test name ="test">
-<classes>
-<class name = "TestBase.SeleniumWebdriver"/>
-</classes>
-</test>
+
+	<listeners>
+		<listener class-name="ExtendReports.EReports" />
+	</listeners>
+
+	<test name="test">
+		<classes>
+			<class name="TestCode.loginCRM" ></class>
+			<!-- <class name="TestCode.SeleniumWebdriver" ></class> -->
+			
+		</classes>
+	</test>
 </suite> 
