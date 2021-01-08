@@ -1,0 +1,42 @@
+How to create fake json on you local host using json server
+https://medium.com/@tmtushar28/create-a-full-fake-rest-api-with-zero-coding-using-json-server-b3d41cef3da9
+
+Api code can be written in below way
+
+To convert the json into Escape text : 
+Windows --> Preferences --> Java --> Editor --> Typing --> In string literals --> Escape text when pasting into string literals
+
+In the above example
+Payloads: It is the response we are receiving from the server in a form of JSON, we can also send the payloads to the server using 
+the body in a form of JSON
+Query parameter : After the ? all are query parameter , ex : property_type=P , section_id=1
+Path parameter : After the url , all the request parameter , /PropPaidDetail.aspx
+Header parameter : if you want to fetch anything from header or post anything to header then we use header parameter.
+
+
+Base URL
+
+given() (under Given you can add below things )
+parameters  [Query parameter , header parameter]
+Request headers
+Request cookies
+body
+
+
+when() (under When you can add below things )
+get [ path parameter ]
+post
+put
+delete
+
+
+then()
+All the Assertation will be done in Then block
+Ex :  then().assertThat().statusCode(200). and().contentType(ContentType.JSON)
+
+extract()
+
+How to create a json using pojo 
+https://www.boraji.com/jackson-api-converting-pojos-to-json-example
+
+

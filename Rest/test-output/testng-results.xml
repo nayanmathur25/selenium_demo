@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="15354" started-at="2020-10-10T19:44:10Z" finished-at="2020-10-10T19:44:26Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="15354" started-at="2020-10-10T19:44:10Z" finished-at="2020-10-10T19:44:26Z">
+      <class name="RestAssu.seleniumCode">
+        <test-method status="PASS" signature="main()[pri:0, instance:RestAssu.seleniumCode@4bec1f0c]" name="main" duration-ms="15213" started-at="2020-10-10T19:44:11Z" finished-at="2020-10-10T19:44:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+        <test-method status="PASS" signature="Quit()[pri:0, instance:RestAssu.seleniumCode@4bec1f0c]" name="Quit" is-config="true" duration-ms="112" started-at="2020-10-10T19:44:26Z" finished-at="2020-10-10T19:44:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Quit -->
+      </class> <!-- RestAssu.seleniumCode -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
